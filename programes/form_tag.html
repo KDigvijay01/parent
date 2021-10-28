@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Form Tag
+        </title>
+    </head>
+    <body>
+        <form>
+            <label><b>Name:- </b></label><input type="text" name="Digvijay" placeholder="Enter Your Name"/> <br/><br/>
+
+
+            <label><b>Password :- </b></label><input type="password" name="Digvijay" placeholder="Enter a Password"/> <br/><br/>
+
+            <label><b>Gender :- </b></label><input type="radio" id="male" name="gender"/> <label for="male">Male</label>  </label><input type="radio" id="female" name="gender"/> <label for="female">Female</label><br/><br/>
+
+            <label><b>Hobbies :- </b></label><input type="checkbox" name="hobby" id="m"/> <label for="m">Music</label><input type="checkbox" name="hobby" id="F"/> <label for="F">Football</label><input type="checkbox" name="hobby" id="C"/> <label for="C">Cricket</label><input type="checkbox" name="hobby" id="Com"/> <label for="Com">Computer</label><br/><br/>
+
+            <label><b>Message :- </b></label><textarea rows="10" cols="50"></textarea> <br/><br/>
+
+            
+            <label><b>Country :- </b></label>
+            <select >
+                
+                <option>America</option>
+                <option selected>India</option>
+                <option>London</option>
+                <option>France</option>
+                <option>Japan</option>
+
+            </select><br/><br/>
+
+            <label>Cars</label>
+            <select>
+                <optgroup label="Toyota">
+                <option>Inova</option>
+                <option>Duster</option>
+                <option>Swift</option>
+                </optgroup>
+            </select><br/><br/>
+             
+            <label>Cars</label><input list="Cars"/>
+            <datalist id="Cars">
+                <option value="Inova">
+                <option value="Duster">
+                <option value="Swift">
+            </datalist> <br/><br/>
+            
+            <label><b>Upload File :- </b></label><input type="file" accept="image/*"/>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,43 @@
+// Variables
+@import "../../style/common/variables.scss";
+// Typeface
+@import "../../style/common/typeface";
+
+// .error-container {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   flex-direction: column;
+//   text-align: center;
+// }
+
+.tickImageContainer{
+    height: 250px;
+    width: 350px;
+    position: relative;
+    margin-bottom: 4rem;
+  
+}
+.tick{
+   position: absolute; 
+  top:3rem;
+  left:8rem;
+
+}
+
+.revert-button{
+    margin-top:2rem !important ;
+    background-color:#58CB7C  !important;
+    color: #fff !important;
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+}
+.signup-message{
+ color: #A5B9AB;
+ font: normal normal bold 16px/21px Montserrat;
+}
+.email-message{
+ color: #A5B9AB;
+ font: normal normal normal 21px/28px Montserrat;
+ width:600px;
+}

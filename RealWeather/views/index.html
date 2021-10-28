@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img src="/freeicon.png">
+                <h1><span>LiveTemp</span></h1>
+                <input class="inp" type="text" placeholder="search">
+                <button class="btn"><span>q</span></button>
+            </div>
+            <div class="col2">
+                <h1><span><%=city%></span></h1>
+                <div class="current"> 
+                    <h2>Current = <%=temp%>℃</h2>  
+                </div>
+
+            </div>
+            <div class="range">
+                <h2><span>Min = <%=min%>℃</span></h2>
+                <h2><span>Max=<%=max%>℃</span></h2>
+             </div>
+             <h2>It Fills Like <%=feels_like%>℃</h2>
+        </div>
+    </div>
+</body>
+</html>

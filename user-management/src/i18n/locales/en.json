@@ -1,0 +1,32 @@
+{
+    "translation": {
+        "error-page-message": "OOPS !Looks like the page you requested does not exist",
+        "confirm-signup-message": "WELCOME ONBOARD TO THE FUTURE OF FARMING",
+        "confirm-email-message":"We have sent a confirmation email to xxxx@xxxx.com,\n Please verify to experience uninterrupted service",
+        "invalid-email": "Email address is not valid.",
+        "invalid-password": "Password must have at least 7 letters.",
+        "passwords-dont-match": "Passwords do not match",
+        "server-error-header": "Request Failed",
+        "server-error-message": "There was some error, please try again.",
+        "reset-password-header": "RESET YOUR PASSWORD",
+        "next": "NEXT",
+        "submit": "SUBMIT",
+        "forgot-password-header": "SUBMIT EMAIL TO RESET PASSWORD",
+        "login": "LOGIN",
+        "invalid-phone-number": "Phone number can only contain digits",
+        "LOGIN-TO-SG-ACCOUNT": "LOGIN TO SG ACCOUNT",
+        "LOGIN": "LOGIN",
+        "LET'S-GET-STARTED": "LET'S GET STARTED",
+        "SIGN-UP": "SIGN UP",
+        "I agree with processing of my personal data in conformity with the Privacy Policy.When clicking on 'Get Started', you also agree with the End User License Agreement." : "I agree with processing of my personal data in conformity with the Privacy Policy. When clicking on 'Get Started', you also agree with the End User License Agreement.",
+        "Forgot-Password": "Forgot Password",
+        "Enter-Your-Email-ID": "Enter Your Email ID",
+        "Email": "Email",
+        "ENTER-YOUR-DETAILS": "ENTER YOUR DETAILS",
+        "Phone-Number": "Phone Number",
+        "back": "Back",
+        "GO-TO-LOGIN": "GO TO LOGIN",
+        "GO-BACK-TO-LOGIN": "GO BACK TO LOGIN",
+        "You may now login to access your account.": "You may now login to access your account."
+    }
+}

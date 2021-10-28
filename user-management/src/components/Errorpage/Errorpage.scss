@@ -1,0 +1,12 @@
+// Variables
+@import "../../style/common/variables.scss";
+// Typeface
+@import "../../style/common/typeface";
+
+.error-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}

@@ -1,0 +1,129 @@
+// Variables
+@import "../../style/common/variables.scss";
+// Typeface
+@import "../../style/common/typeface";
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+.submit-div {
+  span {
+    color: grey;
+    margin-right: 3rem;
+  }
+  button {
+    width: 40% !important;
+  }
+}
+
+.label {
+  color: $secondary;
+  text-align: left;
+}
+
+input {
+  padding: 1.1rem !important;
+  border: 1px solid #333 !important;
+}
+
+button {
+  padding: 1.2rem !important;
+}
+
+// form {
+// input:focus {
+//   border: 2px solid #67bc46 !important;
+//   // outline: 1px solid #67bc46 !important;
+// }
+// }
+
+.signup-div {
+  button {
+    width: 40% !important;
+    background: white !important;
+    color: #67bc46 !important;
+    border: 1px solid lightgrey !important;
+    border-radius: 0.28571429rem !important;
+  }
+  input {
+    border: 1px solid rgb(182, 182, 182) !important;
+  }
+  input:focus {
+    border: 1px solid #67bc46 !important;
+  }
+}
+
+.end {
+  justify-content: flex-end;
+}
+
+.m5 {
+  margin-top: 7rem;
+}
+
+// .password {
+//   position: relative;
+//   border: 1px solid lightgrey;
+//   justify-content: center;
+//   input {
+//     // border: none !important;
+//     width: 100% !important;
+//   }
+//   .icon {
+//     position: absolute !important;
+//     right: 5;
+//   }
+// }
+
+.checkbox-div {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  margin-left: 2rem;
+  span:last-child {
+    text-align: left;
+    color: gray !important;
+    line-height: 1;
+    font-size: 0.8rem !important;    
+  }
+}
+
+.padit {
+  padding: 2rem !important;
+}
+
+// .material-input {
+//   border: none !important;
+//   outline: none !important;
+// }
+// .material-input:focus {
+//   border: none !important;
+//   outline: none !important;
+// }
+
+.MuiOutlinedInput-root {
+  border: none !important;
+  outline: none !important;
+  input {
+    border: none !important;
+    outline: none !important;
+  }
+}
+
+// .MuiOutlinedInput-root:focus {
+//   border: 1px solid #67bc46 !important;
+//   outline: 1px solid #67bc46 !important;
+// }
+
+// .Mui-focused {
+//   border: 1px solid #67bc46 !important;
+//   outline: 1px solid #67bc46 !important;
+// }
+
+.formcontainer-second {
+  padding: 1rem 3rem 1rem 3rem!important;
+}

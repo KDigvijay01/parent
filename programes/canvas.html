@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <canvas id="mycanvas" width="500" height="500" style="border: 5px solid orange;"></canvas>
+
+        <script>
+            var canv=document.getElementById('mycanvas')
+            var cntx=canv.getContext('2d')
+            var x=10
+            var y=50
+            for(x;x<480;){
+                cntx.fillStyle="green"
+                cntx.fillRect(x,y,x+20,y)
+                cntx.update()
+                x+=10
+            }
+            
+            
+        </script>
+    </body>
+</html>

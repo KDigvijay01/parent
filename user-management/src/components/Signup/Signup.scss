@@ -1,0 +1,28 @@
+// Variables
+@import "../../style/common/variables.scss";
+// Typeface
+@import "../../style/common/typeface";
+
+.white {
+  background: white !important;
+  color: rgb(168, 161, 161) !important;
+}
+
+.heading{
+  color: #A5B9AB !important;
+  margin-bottom: 35px !important;
+  font: normal normal bold 16px/21px Montserrat !important;
+}
+.next-button{
+  background-color: #58CB7C !important;
+  color: #fff !important;
+}
+
+.contact {
+  input {
+    border: 1px solid rgb(182, 182, 182) !important;
+  }
+  input:focus {
+    border: 2px solid #67bc46 !important;
+  }
+}

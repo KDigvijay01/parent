@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            background-color:burlywood;
+            width: 100%;
+            height:100vh;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+        }
+        .row{
+            background-color:aqua;
+            width: 400px;
+            height: 300px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <form action='result/' method="get">
+                <label for="name" id="name">Name</label>
+               <input name="name" class="name"><br>
+               <label for="email" id="email">Email</label>
+               <input name="email" class="email"><br>
+               <label for="password" id="password">Password</label>
+               <input name="password" class="password">
+               <br><br>
+               <input type="submit" value="submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

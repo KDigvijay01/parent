@@ -1,0 +1,169 @@
+// Variables
+@import "common/variables";
+// Typeface
+@import "common/typeface.scss";
+
+.App {
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+/* Form section  */
+
+.formcontainer {
+  width: 30%;
+  height: 100%;
+  display: inline-block;
+}
+.logocontainer {
+  margin: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  // flex-wrap: wrap;
+  width: 43%;
+  white-space: nowrap;
+}
+.logo-heading { 
+  padding-left: 20px !important; 
+  color: $primary;
+  font-size: 19px;
+  font-weight: bold;
+}
+.logo img {
+  display: inline-block;
+  // height: 70px;
+  height: 68px;
+}
+
+.formsection {
+  margin: auto;
+}
+#signup-form-details {
+  color: $primary;
+}
+/* Image Section */
+.imagesection {
+  width: 108%;
+  display: inline-block;
+  height: 102.5%;
+  // background-image: url("../images/Image.png");
+  background-size: cover;
+}
+
+.header-text {
+  color: #A5B9AB !important;
+}
+
+.left-col {
+  width: 33%;
+  overflow: hidden;
+}
+
+.right-col {
+  width: 70%;
+  margin-top: -1rem !important;
+}
+
+.container {
+  text-align: center;
+  height: 97.5vh;
+  width: 100vw;
+  display: flex;
+}
+
+// @media screen and (max-width: 600px) {
+//   .left-col {
+//     width: auto;
+//   }
+  
+//   .right-col {
+//     width: auto;
+//     margin-top: 1rem !important;
+//   }
+// }
+
+@media screen and (min-width : 768px) 
+and (max-width : 1024px) 
+and (orientation : portrait) {
+  .left-col {
+    width: 100%;
+    overflow-y: hidden;
+  }  
+  .right-col {
+    width: 50%;
+    height: 110%;
+  }
+  .imagesection{
+    height: 102.4%;
+    width: 106%;
+  }
+}
+
+@media screen and (min-width : 768px) 
+and (max-width : 1024px) 
+and (orientation : landscape) {
+  .left-col {
+    min-width: 50%;
+    overflow-y: hidden;
+  }  
+  .right-col {
+    width: 50%;
+    height: 110%;
+  }
+  .imagesection{
+    height: 102.4%;
+    width: 112%;
+  }
+  .logocontainer {
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 44%;
+  }
+}
+
+
+@media screen and (min-width : 1025px) 
+and (max-width : 1400px) 
+and (orientation : portrait) {
+  
+  .left-col {
+    width: 100%;
+    // overflow-y: hidden;
+  }  
+  .right-col {
+    width: 60%;
+    height: 110%;
+  }
+  .imagesection{
+    height: 102.4%;
+    width: 106%;
+  }
+}
+@media screen and (min-width : 1025px) 
+and (max-width : 1400px) 
+and (orientation : landscape) {
+  .left-col {
+    width: 40%;
+    // overflow-y: hidden;
+    
+  }  
+  .right-col {
+    width: 60%;
+    height: 110%;
+    // overflow: hidden;
+  }
+  .imagesection{
+    height: 102.4%;
+    width: 110%;
+  }
+  
+}
+
+
+
